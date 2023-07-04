@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel</title> <!-- tiêu đề trang-->
+        <meta charset="utf-8"> <!-- tiếng việt-->
+        <link rel="stylesheet" href="main.css"> <!--css loại External-->
+        <!-- <style>
+            h1 {
+                color: blue;
+                font-size: 40px;
+            }
+        </style> --> <!--css loại internal-->
+
+    </head>
+    
+    <body style="background-color:LightGray;"> <!--css loại inline-->
+        <div> <!--div là khối-->
+            <h1 id="F-h" title="đây là Attribute hay còn gọi là thuộc tính">Du lịch Quy Nhơn nên đi đâu?</h1>
+            <!-- chú ý phải ghi trong <h1 ...>....</h1> -->
+
+            <button>Đăng ký</button> <!--nút-->
+    
+            <br><button>Tìm kiếm <input type="text"></button> <!--input type="text" là tạo ô nhập chữ-->
+            <p>Giới tính</p>
+            <p>Nam<input name="gender" type="radio"></p> <!-- type="radio" cùng name thì chỉ đc chọn 1-->
+            <p>Nữ <input name="gender" type="radio"></p> <!-- type="checkbox"như radio nhưng mà chọn đc nhiều-->
+    
+            <p>1. Đi biển Quy Nhơn</p>
+    
+            <img src="https://images2.thanhnien.vn/Uploaded/trongnth/2021_12_22/quy-nhon-3-8951.jpg" alt="ảnh biển Quy Nhơn" width="40%" height="30%">
+            <!-- ảnh img, src="link ảnh", alt="hiển thị khi ảnh lỗi", width="chiều rộng", height="chiều dài" -->
+            
+            
+            <a href="https://www.vntrip.vn/cam-nang/bai-bien-quy-nhon-8582"><br>Đến link ảnh biển Quy Nhơn</a>
+            <!-- a href="link trang", br là thẻ xuống dòng -->
+    
+            <ol>
+                <li>Đi mùa nào</li>
+                <li>Đem theo những gì</li>
+            </ol>
+            <!-- ul là danh sách tự xắp xếp, list là danh sách -->
+    
+            <table>
+                <thead>
+                    <th>STT</th> <!--th là table header là tiêu đề bảng-->
+                    <th>Tên</th>
+                    <th>Địa chỉ</th>
+                </thead>
+    
+                <tbody>
+                    <tr> <!-- tr là table round là hiển thị 1 dòng trong bảng-->
+                        <td>1</td> <!--"td" là table data là hiển thị dữ liệu của bảng theo "th"-->
+                        <td>Trần Hoài Việt</td>
+                        <td>Đà Nẵng</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Trần Hoài Việt 2</td>
+                        <td>Đà Nẵng 2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="th-h">Đi mùa nào?</h2>
+            <h4>Đi mùa nào?</h4>
+            <h3>Đi mùa nào?</h3>
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>
