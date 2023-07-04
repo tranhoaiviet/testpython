@@ -15,18 +15,31 @@ setInterval(function() {
 
 //Toán tử
 //Toán tử số học
-var a = 1;
+var a = 2;
 var b = 2;
 var c = a + b;
-console.log(c)
+var d = b ** a
+console.log('a + b = ',c)
+console.log('b ** a = ',d)
 
 //Boolean
 var a = 1;
 var b = 2;
-var isSuccess = a > b;
-console.log(isSuccess);
+var i = a > b;
+var i2 = a < b;
+console.log('a > b: ',i);
+console.log('a < b: ',i2);
 
-//If-else
+
+//phép gán
+var a = 5;
+var b = 15;
+a += 5
+b /= 5
+console.log('a = ',a)
+console.log('b = ',b)
+
+//toán tử logic
 var a = 1;
 var b = 2;
 var c = 3;
@@ -50,10 +63,14 @@ var myObject = {
     name: 'Việt',
     age: 22,
     adress: 'Đà Nẵng',
-};// Object là để chứa dữ liệu kể cả là function
+};
+console.log(myObject)
+
+// Object là để chứa dữ liệu kể cả là function
+
 //thêm dữ liệu cho object
-myObject.email = 'hangul309@gmail,com'
-console.log('myObject', myObject);
+//myObject.email = 'hangul309@gmail,com'
+//console.log('myObject', myObject);
 /*lấy ra 1 dữ liệu trong object
 console.log(myObject.name);
 
@@ -206,3 +223,7 @@ var user = new User('Tran', 'Hoa', 'avatar');
 console.log(author);
 //cách gọi nguyên tên: console.log(user.getName);
 
+function wrtLog(message) {
+    console.log(message)
+}
+wrtLog('Test message1');
